@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lógica em Código</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="icon" href="imgs/favicon.ico">
+</head>
+</head><body>
+    <div class="tarja"><img src="imgs/barraneon.png" alt=""></div>
+    <div class="brilho"></div>
+    <div class="brilho2"></div>
+    <header>
+    <nav class="menu">
+      <a href="#algoritmos">Algoritmos</a>
+      <a href="#variaveis">Variáveis</a>
+      <a href="#condicionais">Condicionais</a>
+      <a href="#operadores">Operadores</a>
+      <a href="#loops">Loops</a>
+    </nav>
+    <h1>Fundamentos e <br>Técnicas de Programação</br></h1>
+    </header>
+  <main>
+    <section class="intro">
+  <div class="intro-img-container">
+    <img src="imgs/pc.png" alt="Computador" class="intro-img">
+  </div>
+      <p>
+        Antes de criar qualquer coisa, é importante entender os fundamentos da programação.
+        Programar é como <strong>ensinar o computador</strong> um passo a passo. Neste blog usamos Python para exemplificar,
+        pois é uma linguagem didática e simples. Vamos abordar conceitos essenciais: <strong>algoritmos</strong> (receitas passo a passo),
+        <strong>variáveis</strong> (caixinhas que guardam informações), <strong>condicionais</strong> (escolhas do código),
+        <strong>operadores</strong> (os "verbos" do código) e <strong>laços de repetição</strong> (repetição automática de tarefas).
+        Entender esses conceitos é o primeiro passo para transformar ideias em código e criar projetos incríveis!
+      </p>
+    </section>
+
+    <section id="algoritmos">
+      <h2>O que é um algoritmo?</h2>
+      <p>
+        Um algoritmo é uma <strong>sequência de instruções</strong> bem definidas que descrevem, passo a passo, como alcançar um resultado.
+        É como uma <strong>receita de cozinha</strong>: seguiu os passos na ordem certa, obteve o resultado esperado.
+        Na programação, algoritmos servem para resolver problemas, tomar decisões e automatizar tarefas — do simples ao complexo.
+      </p>
+
+      <p>Exemplo simples:</p>
+      <ul>
+        <li>Passo 1: Pegar dois números</li>
+        <li>Passo 2: Somar os números</li>
+        <li>Passo 3: Mostrar o resultado</li>
+      </ul>
+
+      <p class="aspas">
+        <em>“Um algoritmo é como uma receita: se você seguir o passo a passo certo, o resultado sai do forno do jeito que imagina.”</em>
+      </p>
+    </section>
+
+    <section id="variaveis">
+      <h2>O que são variáveis e tipos de dados?</h2>
+      <p>
+        Variáveis são como <strong>caixinhas mágicas</strong> que guardam informações para o programa usar. Cada caixinha tem um tipo de dado,
+        que define que tipo de informação ela pode conter:
+      </p>
+
+      <ul>
+        <li><strong>Número</strong>: valores numéricos (ex.: 10, 3.5)</li>
+        <li><strong>Texto / String</strong>: palavras ou frases (ex.: "Olá, mundo!")</li>
+        <li><strong>Booleano</strong>: verdadeiro/falso (ex.: true / false)</li>
+      </ul>
+
+      <p>
+        Com variáveis você armazena, altera e reutiliza informações sem repetir valores no código.
+      </p>
+
+      <p class="aspas">
+        <em>“Variáveis são como caixinhas etiquetadas: se você colocar o número certo na caixinha certa, seu código não vira bagunça.”</em>
+      </p>
+    </section>
+
+    <section id="condicionais">
+      <h2>O que são condicionais (if/else)?</h2>
+      <p>
+        As <strong>condicionais</strong> são o jeito do código <strong>fazer escolhas</strong>. Quando o programa encontra caminhos diferentes,
+        as condicionais (como o if/else) dizem qual rota seguir.
+      </p>
+
+      <ul>
+        <li><strong>if</strong> (se): se a condição for verdadeira, executa um bloco.</li>
+        <li><strong>else</strong> (senão): executa outra ação quando a condição não é atendida.</li>
+      </ul>
+
+      <p>Exemplo: “Se estiver chovendo, leve o guarda-chuva. Senão, vá sem.”</p>
+
+      <p>No terminal (exemplo em Python):</p>
+      <pre class="terminal"><code class="language-python">
+if esta_chovendo:
+    print("Leve um guarda-chuva")
+else:
+    print("Dia de sol")
+      </code></pre>
+
+      <p class="aspas">
+        <em>“If: o plano A. Else: o famoso ‘deixa eu improvisar aqui’ do computador.”</em>
+      </p>
+    </section>
+
+    <section id="operadores">
+      <h2>Operadores básicos</h2>
+      <p>
+        Os operadores são conjuntos de <strong>símbolos</strong> que o computador usa para fazer cálculos e comparações.
+        Sem eles, o programa pode armazenar dados, mas não saberia como agir — são os operadores que dão vida à lógica.
+      </p>
+
+      <ul>
+        <li><strong>Aritméticos</strong>: +, -, *, /, % (fazem contas).</li>
+        <li><strong>De comparação</strong>: ==, !=, &gt;, &lt;, &gt;=, &lt;= (comparam valores).</li>
+        <li><strong>Lógicos</strong>: and, or, not (combinam condições).</li>
+      </ul>
+
+      <p>
+        Os operadores transformam dados simples em conceitos mais complexos, dando mais versatilidade ao desenvolvimento.
+        Por isso, são essenciais para a criação de lógicas programadas.
+      </p>
+
+      <p class="aspas">
+        <em>“Os operadores são como engrenagens: fazem o código pensar, comparar e calcular sem parar.”</em>
+      </p>
+    </section>
+
+    <section id="loops">
+      <h2>Laços de repetição</h2>
+      <p>
+        Laços de repetição automatizam tarefas que precisam ser repetidas várias vezes. Sem eles, tarefas grandes seriam manuais e cansativas.
+      </p>
+
+      <p>Tipos comuns:</p>
+      <ul>
+        <li><strong>for</strong>: quando você sabe quantas vezes quer repetir algo (ex.: percorrer uma lista).</li>
+        <li><strong>while</strong>: repete enquanto uma condição for verdadeira (ex.: pedir senha até a correta ser digitada).</li>
+      </ul>
+
+      <p class="aspas">
+        <em>“Os laços de repetição são como um DJ do código — colocam a lógica no repeat até a festa acabar.”</em>
+      </p>
+    </section>
+
+    <section>
+      <h2>Conclusão</h2>
+      <p>
+        Compreender esses conceitos é a chave para entrar no mundo da programação. Há muitos outros tópicos a explorar,
+        mas ter uma base sólida facilita muito o aprendizado, até porque, esses fundamentos podem ser aplicados em qualquer setor da tecnologia. 
+        A mentalidade lógica será sua aliada ao criar e resolver problemas.
+      </p>
+
+      <p class="aspas">
+        <em>“Dominar a lógica é o primeiro passo para transformar linhas de código em pequenas obras digitais.”</em>
+      </p>
+    </section>
+  </main>
+  <script>
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
